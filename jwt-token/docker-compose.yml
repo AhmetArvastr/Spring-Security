@@ -4,11 +4,11 @@ services:
   db:
     image: mysql
     restart: always
-    container_name: folksdev-db
+    container_name: my-db
     environment:
-      MYSQL_ROOT_PASSWORD: f0lsdevroot
-      MYSQL_DATABASE: folksdev-db
-      MYSQL_USER: folksdev
-      MYSQL_PASSWORD: f0lsd3v
+      MYSQL_ROOT_PASSWORD: myroot
+      MYSQL_DATABASE: my-db
+      MYSQL_USER: my
+      MYSQL_PASSWORD: 1234asdf
     ports:
       - '3306:3306'

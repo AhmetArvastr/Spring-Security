@@ -1,1 +1,0 @@
-![Diagram](spring-security.png)
